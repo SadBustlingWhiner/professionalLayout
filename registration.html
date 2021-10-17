@@ -1,16 +1,14 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>document</title>
+    <title>Registration</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
-
-<body class="page">
+<body>
     <header class="header">
         <div class="container header__wrp">
             <div class="header__wrp-controls">
@@ -88,123 +86,59 @@
         </div>
     </header>
     <main>
-        <section class="brand">
-            <img class="brand__img" src="img/man_header.png" alt="man">
-            <div class="brand__wrp">
-                <h1 class="brand__title">the brand <span class="brand__subtitle">of luxerious <span class="brand__subtitle-pink"> fashion</span></span></h1>
-            </div>
+        <section class="head">
+            <h2 class="head__head">registration</h2>
         </section>
-        <section class="sales">
-            <h2 class="sales__heading visually-hidden">sales</h2>
-            <ul class="sales__list">
-               <div class="sales__group">
-                <li class="sales__item-women">
-                    <p class="sales__text">30% off</p>
-                    <h3 class="sales__item-title">for women</h3>
+        <section class="registration">
+            <ul class="registration__list">
+<li class="registration__item">
+            <form class="registration__item-form" action="">
+                <fieldset>
+                    <legend class="item-form__head">Your Name</legend>
+                <label for="name">
+                    <input class="item-form__item-form" type="text" placeholder="First Name" required>
+                    <span class="visually-hidden">First Name</span>
+                </label>
+                <label for="name">
+                    <input class="item-form__item-form" type="text" placeholder="Last Name" required>
+                    <span class="visually-hidden">Last Name</span>
+                </label>
+                <label class="registration__item-lable" for="">
+                    <input type="radio" class="item-form__item-radio" name="sex" value="Male">
+                    <p class="item-form__item-text">Male</p>
+                    <input type="radio" class="item-form__item-radio" name="sex" value="Female">
+                    <p class="item-form__item-text">Female</p>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend class="item-form__head">Login details</legend>
+                <label for="email">
+                    <input class="item-form__item-form" type="email" placeholder="Email" required>
+                    <span class="visually-hidden">Email</span>
+                </label>
+                <label for="password">
+                    <input class="item-form__item-form" type="password" placeholder="Password" required>
+                    <span class="visually-hidden">Password</span>
+                </label>
+            </fieldset>
+            <button class="registration__button" type="submit">join now</button>
+            </form>
+                    <p class="item-form__text">Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase letters</p>
                 </li>
-                <li class="sales__item-men">
-                    <p class="sales__text">hot deal</p>
-                    <h3 class="sales__item-title">for men</h3>
-                </li>
-                <li class="sales__item-kids">
-                    <p class="sales__text">new arrivals</p>
-                    <h3 class="sales__item-title">for kids</h3>
-                </li>
-               </div>
-                <li class="sales__item-accesories">
-                    <p class="sales__text">luxirous & trendy</p>
-                    <h3 class="sales__item-title">accesories</h3>
-                </li>
-        </section>
-        <section class="catalog">
-            <h2 class="catalog__heading">
-                fetured items
-            </h2>
-            <p class="catalog__text">Shop for items based on what we featured in this week</p>
-            <ul class="catalog__list">
-                <div class="catalog__chapter">
-                    <li class="catalog__item">
-                        <img class="catalog__item-img" src="img/card_1.jpg" alt="card_1">
-                        <h3 class="catalog__item-heading">ellery x m'o capsule</h3>
-                        <p class="catalog__item-text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
-                            teams up with Moda Operandi.</p>
-                        <p class="catalog__item-price">$52.00</p>
-                    </li>
-                    <li class="catalog__item">
-                        <img class="catalog__item-img" src="img/card_2.jpg" alt="card_2">
-                        <h3 class="catalog__item-heading">ellery x m'o capsule</h3>
-                        <p class="catalog__item-text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
-                            teams up with Moda Operandi.</p>
-                        <p class="catalog__item-price">$52.00</p>
-                    </li>
-                    <li class="catalog__item">
-                        <img class="catalog__item-img" src="img/card_3.jpg" alt="card_3">
-                        <h3 class="catalog__item-heading">ellery x m'o capsule</h3>
-                        <p class="catalog__item-text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
-                            teams up with Moda Operandi.</p>
-                        <p class="catalog__item-price">$52.00</p>
-                    </li>
-                </div>
-             <div class="catalog__chapter">
-                <li class="catalog__item">
-                    <img class="catalog__item-img" src="img/card_4.jpg" alt="card_4">
-                    <h3 class="catalog__item-heading">ellery x m'o capsule</h3>
-                    <p class="catalog__item-text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
-                        teams up with Moda Operandi.</p>
-                    <p class="catalog__item-price">$52.00</p>
-                </li>
-                <li class="catalog__item">                    
-                    <img class="catalog__item-img" src="img/card_5.jpg" alt="card_5">
-                    <button class="catalog__item-button item-button ">
-                        <ul class="item-button__list">
-                            <li class="item-button__item">
-                                <img src="img/cart.svg" alt="cart">
-                            </li>
-                            <li class="item-button__item">
-                                <p class="item-button__item-text">
-                                    Add to Cart
-                                </p>
-                            </li>
-                        </ul>
-                    </button>
-                    <h3 class="catalog__item-heading">ellery x m'o capsule</h3>
-                    <p class="catalog__item-text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
-                        teams up with Moda Operandi.</p>
-                    <p class="catalog__item-price">$52.00</p>
-                </li>
-                <li class="catalog__item">
-                    <img class="catalog__item-img" src="img/card_6.jpg" alt="card_6">
-                    <h3 class="catalog__item-heading">ellery x m'o capsule</h3>
-                    <p class="catalog__item-text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
-                        teams up with Moda Operandi.</p>
-                    <p class="catalog__item-price">$52.00</p>
-                </li>
-             </div>
-            </ul>
-            <button type="button" class="catalog__button">Browse All Product</button>
-        </section>
-        <section class="info">
-            <h2 class="info__heading visually-hidden">info</h2>
-            <ul class="info__list">
-                <li class="info__item">
-                    <img class="info__item-img" src="img/delivery_logo.svg" alt="delivery">
-                    <h3 class="info__item-heading">Free Delivery</h3>
-                    <p class="info__item-text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
-                        models.</p>
-                </li>
-                <li class="info__item">
-                    <img class="info__item-img" src="img/sales_logo.svg" alt="sales">
-                    <h3 class="info__item-heading">Sales & discounts</h3>
-                    <p class="info__item-text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
-                        models.</p>
-                </li>
-                <li class="info__item">
-                    <img class="info__item-img" src="img/quality_logo.svg" alt="quality">
-                    <h3 class="info__item-heading">Quality assurance</h3>
-                    <p class="info__item-text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
-                        models.</p>
+                <li class="registration__item">
+                    <h3 class="registration__item-head">loyalty has its perks</h3>
+                    <p class="registration__item-text">Get in on the loyalty program where you can earn points and unlock serious perks. Starting with these as soon as you join:</p>
+                    <ul class="registration__item-list item-list">
+                        <li class="item-list__item">15% off welcome offer
+                        </li>
+                        <li class="item-list__item">Free shipping, returns and exchanges on all orders</li>
+                        <li class="item-list__item">$10 off a purchase on your birthday</li>
+                        <li class="item-list__item">Early access to products</li>
+                        <li class="item-list__item">Exclusive offers & rewards</li>
+                    </ul>
                 </li>
             </ul>
+         
         </section>
     </main>
     <footer>
@@ -249,5 +183,4 @@
         </section>
     </footer>
 </body>
-
 </html>
