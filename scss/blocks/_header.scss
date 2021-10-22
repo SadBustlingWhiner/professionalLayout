@@ -1,0 +1,63 @@
+.header {
+    background-color: $black;
+}
+
+.header__nav {
+    width: 232px;
+    height: 600px;
+    background-color: $white;
+    padding: 37px 0 0 0;
+    position: absolute;
+    margin: 21px 0 0 150px;
+    display: none;
+    z-index: 3;
+
+    &--show {
+        display: block;
+    }
+}
+
+.header__nav-title {
+    font-family: $font-lato;
+    @include font(14px, 17px, bold);
+    text-transform: uppercase;
+    margin: 0 0 24px 34px;
+}
+
+.header__menu-list {
+    margin: 0 0 20px 34px;
+}
+
+.header__wrp {
+    display: flex;
+    justify-content: space-between;
+    min-height: 75px;
+    align-items: center;
+    position: relative;
+}
+
+.header__wrp-link:hover {
+    opacity: 0.6;
+}
+
+.header__logo {
+    margin: 0 41px 0 0;
+    fill: $white;
+}
+
+.header__link {
+    margin: 0 0 0 31px;
+}
+
+.header__button {
+    border: none;
+    background-color: $black;
+}
+
+.header__icon {
+    fill: $white;
+}
+
+.header__icon:hover {
+    fill: $pink;
+}
