@@ -1,0 +1,109 @@
+.catalog {
+    margin: 96px 0 0 0;
+   @include flex-center;
+    flex-direction: column;
+}
+
+.catalog__heading {
+    font-family: $font-lato;
+    @include font(30px, 36px);
+    text-transform: uppercase;
+}
+
+.catalog__text {
+    font-family: $font-lato;
+    @include font(14px, 17px, 300);
+    color: $grey;
+}
+
+.catalog__list {
+    display: flex;
+    flex-direction: column;
+    margin: 7px 0 0 0;
+}
+
+.catalog__chapter {
+    display: flex;
+    justify-content: space-around;
+}
+
+.catalog__item {
+    width: 360px;
+    margin: 50px 30px 0 0;
+}
+
+.catalog__item-wrp {
+    position: relative;
+    @include flex-center;
+}
+
+.catalog__item-img {
+    width: 360px;
+    height: 420px;
+}
+
+.catalog__item-overlay {
+    width: 100%;
+    min-height: 100%;
+    background: $black;
+    opacity: 0.2;
+    position: absolute;
+    display: none;
+}
+
+.item-button {
+    border: 1px solid $white;
+    padding: 10px;
+    background-color: transparent;
+    position: absolute;
+    display: none;
+}
+
+.item-button__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item-button__text {
+    font-family: $font-lato;
+    color: $white;
+    @include font (14px, 17px);
+    margin: 3px 2px 0 11px;
+}
+
+.catalog__item-wrp:hover .item-button,
+.catalog__item-wrp:hover .catalog__item-overlay {
+    display: block;
+}
+
+.catalog__item-heading {
+    font-family: $font-lato;
+    @include font(13px, 16px);
+    padding: 25px 0 0 18px;
+    text-transform: uppercase;
+}
+
+.catalog__item-text {
+    font-family: $font-lato;
+    @include font(14px, 17px, 300);
+    color: $grey;
+    padding: 13px 0 0 18px;
+}
+
+.catalog__item-price {
+    font-family: $font-lato;
+    @include font(16px, 19px);
+    color: $pink;
+    padding: 18px 0 0 18px;
+}
+
+.catalog__button {
+    margin: 63px 0 0 0;
+    color: $pink;
+    border-color: $pink;
+    background-color: $white;
+    padding: 14px 38px;
+    font-family: $font-lato;
+    @include font(16px, 19px);
+}
