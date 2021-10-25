@@ -1,11 +1,18 @@
 .copy {
     background-color: $black;
     height: 79px;
+    @include mobile {
+        height: 143px;
+    }
 }
 
 .copy__list {
     display: flex;
     justify-content: space-around;
+    @include tablet {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .copy__item {

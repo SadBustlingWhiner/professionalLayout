@@ -6,3 +6,12 @@
     $light-grey: #B1B1B1;
 
     $font-lato: 'lato';
+
+    @font-face {
+        font-family: Lato;
+        src: url(../fonts/Lato-Light.ttf);
+    }
+
+    $tablet-width: 1599px;
+    $mobile-width: 767px;
+    // $mobile-width: 375px;

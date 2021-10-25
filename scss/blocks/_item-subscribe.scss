@@ -6,6 +6,11 @@
     width: 100px;
     border-style: none;
     margin: 32px 0 0 0;
+    @include mobile {
+        height: 46px;
+        width: 95px;
+        margin: 59px 0 109px 0;
+    }
 }
 
 .item-subscribe__text {

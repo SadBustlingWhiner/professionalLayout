@@ -47,6 +47,9 @@
 
 .header__link {
     margin: 0 0 0 31px;
+    @include mobile {
+        display: none;
+    }
 }
 
 .header__button {
