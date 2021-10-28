@@ -45,6 +45,7 @@
     @include mobile {
 width: 347px;
     }
+    list-style: none;
 }
 
 .catalog__item-wrp {
@@ -121,4 +122,8 @@ width: 347px;
     padding: 14px 38px;
     font-family: $font-lato;
     @include font(16px, 19px);
+}
+
+.catalog__product {
+    margin: 0 0 148px 0;
 }
