@@ -1,0 +1,25 @@
+.item-form {
+    width: 360px;
+}
+
+.item-form__head {
+    font-family: $font-lato;
+    @include font(16px, 19px, 300);
+    margin: 0 0 20px 0;
+}
+
+.item-form__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-form__item-form {
+    font-family: $font-lato;
+    @include font(13px, 16px, 300);
+    margin: 0 0 20px 0;
+    color: $grey;
+    border-color: $grey;
+    width: 343px;
+    height: 45px;
+    padding: 0 0 0 17px;
+}

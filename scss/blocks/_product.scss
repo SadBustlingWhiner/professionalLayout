@@ -1,0 +1,28 @@
+.product-head {
+    background-color: $light-pink;
+    height: 148px;
+}
+
+.product-head__list {
+    display: flex;
+    justify-content: space-around;
+    margin: 59px 0 0 0;
+}
+
+.product-head__item {
+    color: $pink;
+    @include font (24px, 29px);
+    text-transform: uppercase;
+}
+
+.item-grey {
+    color: $grey;
+    @include font (14px, 16px);
+    text-transform: uppercase;
+}
+
+.item-pink {
+    color: $pink;
+    @include font (14px, 16px);
+    text-transform: uppercase;
+}

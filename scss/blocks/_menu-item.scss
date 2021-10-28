@@ -1,0 +1,14 @@
+.menu-item__title {
+    font-family: $font-lato;
+    @include font(14px, 17px);
+    color: $pink;
+    text-transform: uppercase;
+    margin: 0 0 12px 0;
+}
+
+.menu-item__sub-item {
+    font-family: $font-lato;
+    @include font(14px, 17px);
+    color: $grey;
+    margin: 0 0 11px 20px;
+}
