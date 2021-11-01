@@ -1,0 +1,49 @@
+.copy {
+    background-color: $black;
+    min-height: 79px;
+    @include mobile {
+        min-height: 143px;
+    }
+}
+
+.copy__list {
+    display: flex;
+    justify-content: space-around;
+    @include tablet {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.copy__item {
+    display: flex;
+    justify-content: space-around;
+    min-height: 32px;
+    margin: 24px 0 0 0;
+}
+
+.copy__text {
+    color: $white;
+    font-family: $font-lato;
+    @include font(16px, 19px);
+}
+
+.copy__img {
+    margin: 0 7px 0 0;
+}
+
+.color-white {
+    fill: $white;
+}
+
+.color-white:hover {
+    fill: $pink;
+}
+
+.color-black {
+    fill: $black;
+}
+
+.color-white:hover .color-black {
+    fill: $white;
+}
