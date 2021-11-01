@@ -6,7 +6,7 @@
 .brand__img {
     width: 50%;
     @include tablet{       
-        height: auto;
+        min-height: auto;
     } 
     @include mobile {
         display: none;
@@ -41,7 +41,7 @@
 }
 
 .brand__title::before {
-    height: 92px;
+    min-height: 92px;
     width: 12px;
     background-color: $pink;
     content: '';

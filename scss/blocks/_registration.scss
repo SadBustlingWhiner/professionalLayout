@@ -3,6 +3,9 @@
     display: flex;
     justify-content: space-around;
     margin: 64px 0 0 120px;
+    @include mobile {
+        flex-direction: column;
+    }
 }
 
 .registration__item {
@@ -82,7 +85,7 @@
 
 .item-list__item::before {
     width: 16px;
-    height: 20px;
+    min-height: 20px;
     content: '';
     background-image: url(../../img/check.svg);
     position: absolute;
@@ -109,7 +112,7 @@
     content: '';
     position: absolute;
     width: 18px;
-    height: 11px;
+    min-height: 11px;
     right: 25px;
     bottom: 20px;
 }

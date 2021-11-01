@@ -1,8 +1,8 @@
 .copy {
     background-color: $black;
-    height: 79px;
+    min-height: 79px;
     @include mobile {
-        height: 143px;
+        min-height: 143px;
     }
 }
 
@@ -18,7 +18,7 @@
 .copy__item {
     display: flex;
     justify-content: space-around;
-    height: 32px;
+    min-height: 32px;
     margin: 24px 0 0 0;
 }
 
