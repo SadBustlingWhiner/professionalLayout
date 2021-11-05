@@ -1,0 +1,118 @@
+
+.registration__list {
+    display: flex;
+    justify-content: space-around;
+    margin: 64px 0 0 120px;
+    @include mobile {
+        flex-direction: column;
+    }
+}
+
+.registration__item {
+    width: 652px;
+}
+
+.registration__item-form {
+    margin: 0 0 0 65px;
+}
+
+.item-form {
+    width: 360px;
+}
+
+.item-form__head {
+    font-family: $font-lato;
+    @include font(16px, 19px, 300);
+    margin: 0 0 20px 0;
+}
+
+.item-form__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-form__item-form {
+    font-family: $font-lato;
+    @include font(13px, 16px, 300);
+    margin: 0 0 20px 0;
+    color: $grey;
+    border-color: $grey;
+    width: 343px;
+    height: 45px;
+    padding: 0 0 0 17px;
+}
+
+.registration__item-lable {
+    display: flex;
+}
+
+.item-form__item-radio {
+    margin: 0 10px 33px 0;
+    display: block;
+}
+
+.item-form__item-text {
+    font-family: $font-lato;
+    @include font(11px, 13px, 300);
+    margin: 0 20px 35px 0;
+}
+
+.item-form__text {
+    font-family: $font-lato;
+    @include font(13px, 16px, 300);
+    color: $light-grey;
+}
+
+.registration__item-head {
+    font-family: $font-lato;
+    @include font(24px, 29px, 300);
+    text-transform: uppercase;
+    margin: 0 0 22px 0;
+}
+
+.registration__item-text {
+    font-family: $font-lato;
+    @include font(24px, 29px, 300);
+    margin: 0 0 21px 0;
+}
+
+.item-list__item {
+    font-family: $font-lato;
+    @include font(24px, 29px, 300);
+    margin: 0 0 16px 39px;
+    position: relative;
+}
+
+.item-list__item::before {
+    width: 16px;
+    min-height: 20px;
+    content: '';
+    background-image: url(../../img/check.svg);
+    position: absolute;
+    left: -33px;
+    background-size: 15px 19px;
+    top: 7px;
+}
+
+.registration__button {
+    background-color: $pink;
+    color: $white;
+    border-style: none;
+    font-family: $font-lato;
+    @include font(14px, 17px);
+    text-transform: uppercase;
+    padding: 16px 66px 16px 22px;
+    margin: 39px 0 96px 0;
+    position: relative;
+}
+
+.registration__button::after {
+    background-image: url(../../img/pointer.svg);
+    background-size: 17px 10px;
+    content: '';
+    position: absolute;
+    width: 18px;
+    min-height: 11px;
+    right: 25px;
+    bottom: 20px;
+}

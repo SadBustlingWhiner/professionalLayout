@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>document</title>
+    <title>Cart</title>
     <link rel="stylesheet" href="scss/style.css">
 </head>
-
 <body>
     <header class="header">
         <div class="container header__wrp" id="wrp">
@@ -86,106 +84,64 @@
         </div>
     </header>
     <main>
-        <section class="head-catalog">
-            <h2 class="head-catalog__title">
-                new arrivals 
-            </h2>
-            <p class="head-catalog__text">
-                home / men / <span class="head-catalog__text-pink"> new arrivals </span>
-            </p>
+        <section class="head">
+            <h2 class="head__head">shopping cart</h2>
         </section>
-        <section class="navigation-catalog">
-            <button class="navigation-catalog__button-filter" id="burger">filter</button>
-            <nav class="navigation-catalog__nav" id="menu">
-                <h2>category</h2>
-            </nav>
-            <button class="navigation-catalog__button">trending now</button>
-            <button class="navigation-catalog__button">size</button>
-            <button class="navigation-catalog__button">price</button>
-        </section>
-        <section class="directory">
-            <div class="directory__card">
-                <img class="directory__img" src="img/card_1.jpg" alt="card_1">
-                <h3 class="directory__title">ellery x m'o capsule</h3>
-                <p class="directory__text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
-                    teams up with Moda Operandi.</p>
-                <p class="directory__price">$52.00</p></div>
-            <div class="directory__card">
-                <img class="directory__img" src="img/card_2.jpg" alt="card_2">
-                <h3 class="directory__title">ellery x m'o capsule</h3>
-                <p class="directory__text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
-                    teams up with Moda Operandi.</p>
-                <p class="directory__price">$52.00</p>
-            </div>
-            <div class="directory__card">
-                <img class="directory__img" src="img/card_3.jpg" alt="card_3">
-                <h3 class="directory__title">ellery x m'o capsule</h3>
-                <p class="directory__text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
-                    teams up with Moda Operandi.</p>
-                <p class="directory__price">$52.00</p></div>
-            <div class="directory__card">
-                <img class="directory__img" src="img/card_4.jpg" alt="card_4">
-                    <h3 class="directory__title">ellery x m'o capsule</h3>
-                    <p class="directory__text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
-                        teams up with Moda Operandi.</p>
-                    <p class="directory__price">$52.00</p>
-            </div>
-            <div class="directory__card">
-                <img class="directory__img" src="img/card_4.jpg" alt="card_4">
-                <h3 class="directory__title">ellery x m'o capsule</h3>
-                <p class="directory__text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
-                    teams up with Moda Operandi.</p>
-                <p class="directory__price">$52.00</p>
-            </div>
-            <div class="directory__card">
-                <img class="directory__img" src="img/card_6.jpg" alt="card_6">
-                    <h3 class="directory__title">ellery x m'o capsule</h3>
-                    <p class="directory__text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
-                        teams up with Moda Operandi.</p>
-                    <p class="directory__price">$52.00</p>
-            </div>
-            <div class="directory__card">
-                <img class="directory__img" src="img/card_7.jpg" alt="card_7">
-                <h3 class="directory__title">ellery x m'o capsule</h3>
-                <p class="directory__text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
-                    teams up with Moda Operandi.</p>
-                <p class="directory__price">$52.00</p>
-            </div>
-            <div class="directory__card">
-                <img class="directory__img" src="img/card_8.jpg" alt="card_8">
-                    <h3 class="directory__title">ellery x m'o capsule</h3>
-                    <p class="directory__text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
-                        teams up with Moda Operandi.</p>
-                    <p class="directory__price">$52.00</p>
-            </div>
-            <div class="directory__card">
-                <img class="directory__img" src="img/card_9.jpg" alt="card_9">
-                    <h3 class="directory__title">ellery x m'o capsule</h3>
-                    <p class="directory__text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
-                        teams up with Moda Operandi.</p>
-                    <p class="directory__price">$52.00</p>
-            </div>
-        </section>
-        <section class="info">
-            <h2 class="info__heading visually-hidden">info</h2>
-            <ul class="info__list">
-                <li class="info__item">
-                    <img class="info__item-img" src="img/delivery_logo.svg" alt="delivery">
-                    <h3 class="info__item-heading">Free Delivery</h3>
-                    <p class="info__item-text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
-                        models.</p>
+        <section class="cart">
+            <ul class="cart__list">
+                <li class="cart__item">
+<ul class="cart__card-list">
+    <li class="cart__card-item">
+        <img class="cart__card-img" src="img/card_1.jpg" alt="card">
+        <div class="cart__card-info card-info">
+            <h2 class="card-info__title">mango  people br t-shirt</h2>
+            <p class="card-info__text">Price: <span class="card-info__text-pink">$300</span> </p>
+            <p class="card-info__text">Color: Red</p>
+            <p class="card-info__text">Size: Xl	</p>
+            <p class="card-info__text">Quantity:	2</p>
+        </div>
+    </li>
+    <li class="cart__card-item">
+        <img class="cart__card-img" src="img/card_1.jpg" alt="card">
+        <div class="cart__card-info card-info">
+            <h2 class="card-info__title">mango  people  t-shirt</h2>
+            <p class="card-info__text">Price: <span class="card-info__text-pink">$300</span> </p>
+            <p class="card-info__text">Color: Red</p>
+            <p class="card-info__text">Size: Xl	</p>
+            <p class="card-info__text">Quantity:	2</p>
+        </div>
+    </li>
+</ul>
+<div class="cart__block">
+       <button class="cart__button" type="button">clear shopping cart</button> 
+        <button class="cart__button" type="button">continue shopping</button> 
+</div>
                 </li>
-                <li class="info__item">
-                    <img class="info__item-img" src="img/sales_logo.svg" alt="sales">
-                    <h3 class="info__item-heading">Sales & discounts</h3>
-                    <p class="info__item-text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
-                        models.</p>
-                </li>
-                <li class="info__item">
-                    <img class="info__item-img" src="img/quality_logo.svg" alt="quality">
-                    <h3 class="info__item-heading">Quality assurance</h3>
-                    <p class="info__item-text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
-                        models.</p>
+                <li class="cart__item">
+            <form class="registration__item-form" action="">
+                <fieldset class="cart__item-set">
+                    <legend class="item-form__head cart__item-title">shipping adress</legend>
+                <label for="country">
+                    <input class="item-form__item-form" type="text" placeholder="Bangladesh" required>
+                    <span class="visually-hidden">Country</span>
+                </label>
+                <label for="state">
+                    <input class="item-form__item-form" type="text" placeholder="State" required>
+                    <span class="visually-hidden">State</span>
+                </label>
+                <label for="postcode">
+                    <input class="item-form__item-form" type="text" placeholder="Postcode / Zip" required>
+                    <span class="visually-hidden">Postcode</span>
+                </label>  
+            </fieldset>
+            <button class="cart__button" type="button">get a quote</button>
+            </form>
+            <div class="cart__total">
+                <p class="cart__total-sub">sub total         $900</p>
+                <p class="cart__total-grand">grand total      <span class="cart__total-pink">$900</span></p>
+                <hr class="cart__total-hr">
+                <button class="cart__total-button" type="button">proceed to checkout</button>
+            </div>
                 </li>
             </ul>
         </section>
@@ -233,5 +189,4 @@
     </footer>
     <script src='js/script.js'></script>
 </body>
-
 </html>

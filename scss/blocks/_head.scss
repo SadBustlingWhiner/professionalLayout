@@ -1,0 +1,12 @@
+.head {
+    background-color: $light-pink;
+    min-height: 148px;
+}
+
+.head__head {
+    font-family: $font-lato;
+    @include font(24px, 29px);
+    text-transform: uppercase;
+    color: $pink;
+    padding: 59px 0 0 230px;
+}
