@@ -1,0 +1,21 @@
+.card-info {
+    background-color: $white;
+    padding: 22px 97px 56px 32px;
+}
+
+.card-info__title {
+    font-family: $font-lato;
+    @include font(24px, 29px);
+    text-transform: uppercase;
+    margin: 0 0 42px 0;
+}
+
+.card-info__text {
+    font-family: $font-lato;
+    @include font(22px, 26px);
+    margin: 0 0 6px 0;
+}
+
+.card-info__text-pink {
+    color: $pink;
+}

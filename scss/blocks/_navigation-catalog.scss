@@ -1,0 +1,23 @@
+.navigation-catalog {
+    display: flex;
+    width: 1140px;
+}
+
+.navigation-catalog__button-filter {
+    border: none;
+    background-color: $white;
+    font-family: $font-lato;
+    @include font(14px, 16px, 600);
+    text-transform: uppercase;
+    margin: 51px 330px 0 0;
+}
+
+.navigation-catalog__button {
+    border: none;
+    background-color: $white;
+    font-family: $font-lato;
+    @include font(14px, 16px,);
+    text-transform: uppercase;
+    color: $grey;
+    margin: 51px 48px 0 0;
+}

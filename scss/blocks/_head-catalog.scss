@@ -1,0 +1,30 @@
+.head-catalog {
+    min-height: 148px;
+    background-color: $light-pink;
+    padding: 59px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include mobile {
+        flex-direction: column;
+    }
+}
+
+.head-catalog__title {
+    font-family: $font-lato;
+    @include font(24px, 28px);
+    color: $pink;
+    text-transform: uppercase;
+}
+
+.head-catalog__text {
+    font-family: $font-lato;
+    color: $grey;
+    text-transform: uppercase;
+    @include font(14px, 16px, 300)
+}
+
+.head-catalog__text-pink {
+    @include font(14px, 16px, 700);
+    color: $pink;
+}
